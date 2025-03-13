@@ -11,7 +11,7 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (email === 'ashen' && password === '1234') {
+    if (email === '@ashen' && password === '1234') {
       localStorage.setItem('isAuthenticated', 'true');
       navigate('/dashboard');
     } else {
