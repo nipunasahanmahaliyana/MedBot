@@ -33,7 +33,7 @@ const Login = () => {
           <div className="form-group">
             <label>Email Address</label>
             <input
-              type="email"
+              type="text"
               value={email}
               placeholder="you@example.com"
               onChange={(e) => setEmail(e.target.value)}
