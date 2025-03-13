@@ -1,0 +1,211 @@
+.landing-page-enterprise {
+  min-height: 100vh;
+  background: linear-gradient(to right, #0f172a, #1e3a8a); /* Deep navy to blue */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  padding: 4rem;
+  max-width: 600px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.logo-img {
+  width: 48px;
+  height: 48px;
+}
+
+.brand-name {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.tagline {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #e0f2fe;
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  font-size: 1.05rem;
+  color: #cbd5e1;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 0.85rem 2.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  display: inline-block;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary {
+  background-color: #3b82f6;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+.btn-secondary:hover {
+  background-color: #e2e8f0;
+  color: #1e293b;
+  transform: scale(1.05);
+}
+
+.footer-note {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-top: 2rem;
+}
+
+.features-section,
+.testimonials-section,
+.trusted-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-top: 3rem;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features-section h2,
+.testimonials-section h2,
+.trusted-section h2 {
+  color: #e0f2fe;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.2);
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: scale(1.03);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.feature-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #93c5fd;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.testimonial-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 400px;
+  color: #f3f4f6;
+  font-style: italic;
+  border-left: 4px solid #60a5fa;
+}
+
+.testimonial-card span {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #93c5fd;
+}
+
+.trusted-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: #e2e8f0;
+  margin-top: 1rem;
+}
+
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  color: #a5b4fc;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

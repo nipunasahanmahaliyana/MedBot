@@ -1,0 +1,202 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0f172a, #1e3a8a);
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(18px);
+  border-radius: 20px;
+  padding: 3rem;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  color: #f1f5f9;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  animation: slideUp 0.7s ease-in-out;
+  transition: 0.3s ease;
+}
+
+.login-card:hover {
+  box-shadow: 0 0 30px rgba(96, 165, 250, 0.5);
+}
+
+/* Animations */
+@keyframes slideUp {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Logo */
+.logo {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.logo img {
+  width: 60px;
+}
+
+/* Headings */
+.animated-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #60a5fa;
+  margin-bottom: 0.5rem;
+}
+.sub-heading {
+  text-align: center;
+  font-size: 1rem;
+  color: #94a3b8;
+  margin-bottom: 2rem;
+}
+
+/* Inputs */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+.form-group label {
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+  display: block;
+  color: #cbd5e1;
+}
+.form-group input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.12);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+.form-group input:focus {
+  background: rgba(255, 255, 255, 0.2);
+  outline: none;
+}
+
+/* Password toggle */
+.password-group {
+  position: relative;
+}
+.toggle-password {
+  position: absolute;
+  top: 35px;
+  right: 16px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Options */
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}
+.remember-me input {
+  margin-right: 0.5rem;
+}
+.forgot-password {
+  color: #60a5fa;
+  cursor: pointer;
+}
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+/* Button */
+.btn.btn-primary {
+  width: 100%;
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.btn.btn-primary:hover {
+  background-color: #2563eb;
+}
+
+/* Divider */
+.divider {
+  text-align: center;
+  margin: 1.5rem 0;
+  position: relative;
+}
+.divider span {
+  background-color: rgba(15, 23, 42, 1);
+  padding: 0 1rem;
+  color: #94a3b8;
+  position: relative;
+  z-index: 1;
+}
+.divider:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #334155;
+  z-index: 0;
+}
+
+/* Social Buttons */
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+.btn-social {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s ease;
+}
+.google {
+  background-color: #ef4444;
+  color: white;
+}
+.github {
+  background-color: #111827;
+  color: white;
+}
+.btn-social:hover {
+  opacity: 0.9;
+}
+
+/* Sign up prompt */
+.signup-prompt {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}
+.signup-prompt .link {
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: bold;
+}
+.signup-prompt .link:hover {
+  text-decoration: underline;
+}

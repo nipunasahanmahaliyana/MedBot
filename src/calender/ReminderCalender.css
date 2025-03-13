@@ -1,0 +1,100 @@
+.reminder-calendar {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  color: #e2e8f0;
+}
+
+.reminder-calendar h2 {
+  text-align: center;
+  color: #93c5fd; /* Light blue for header */
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.calorie-goal {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.calorie-goal label {
+  margin-right: 0.5rem;
+  font-weight: bold;
+  color: #cbd5e1; /* Soft white-gray */
+}
+
+.calorie-goal input {
+  padding: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+  width: 60%;
+  transition: border-color 0.3s ease;
+}
+
+.calorie-goal input:focus {
+  border-color: #93c5fd;
+  outline: none;
+  box-shadow: 0 0 6px rgba(147, 197, 253, 0.5);
+}
+
+.meal-input {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.meal-input input {
+  flex: 1;
+  padding: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+}
+
+.meal-input button {
+  padding: 0.8rem 1.2rem;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.meal-input button:hover {
+  transform: translateY(-2px);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.calendar-container {
+  margin-bottom: 1.5rem;
+}
+
+.calorie-summary {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.calorie-summary h3 {
+  color: #93c5fd; /* Light Blue */
+  margin: 0.5rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.calorie-summary p {
+  font-size: 1.1rem;
+  color: #e2e8f0;
+}
