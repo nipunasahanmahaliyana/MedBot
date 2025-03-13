@@ -11,8 +11,7 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Mock authentication
-    if (email === 'user@example.com' && password === 'password') {
+    if (email === 'ashen' && password === '1234') {
       localStorage.setItem('isAuthenticated', 'true');
       navigate('/dashboard');
     } else {
