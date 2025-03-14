@@ -37,6 +37,7 @@
 
 .form-group input[type='radio'] {
   margin-right: 0.5rem;
+  justify-items: center;
 }
 
 .form-navigation {

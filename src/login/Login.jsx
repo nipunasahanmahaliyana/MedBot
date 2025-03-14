@@ -23,7 +23,7 @@ const Login = () => {
     <div className="login-page">
       <div className="login-card">
         <div className="logo">
-          <img src="/logo.png" alt="AI Med Bot" />
+          <img src="/login.jpg" alt="AI Nutri Check-Up" />
         </div>
 
         <h2 className="animated-heading">Welcome Back 👋</h2>
