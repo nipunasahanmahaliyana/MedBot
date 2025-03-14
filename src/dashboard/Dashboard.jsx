@@ -26,14 +26,14 @@ const Dashboard = () => {
   return (
     <div className="dashboard-container">
       <header className="dashboard-header">
-        <h1>🩺 Med Bot Dashboard</h1>
+        <h1>🩺 AI Nutri Check-Up</h1>
         <p>Your AI-powered health companion</p>
       </header>
 
       <div className="dashboard-grid">
         {/* Left Section: Prediction Form */}
         <section className="card-section glass-card">
-          <h2 className="section-title">Symptom Prediction</h2>
+          <h2 className="section-title">Risk Prediction</h2>
           <QuestionForm />
         </section>
 

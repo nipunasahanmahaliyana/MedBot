@@ -14,7 +14,7 @@ const LandingPage = () => {
       >
         <div className="logo-area">
           <img src="/ai-med-logo.png" alt="AI Med Bot" className="logo-img" />
-          <h1 className="brand-name">AI Med Bot</h1>
+          <h1 className="brand-name">AI Nutri Check-Up</h1>
         </div>
 
         <h2 className="tagline">Predict. Prevent. Empower.</h2>
@@ -84,7 +84,7 @@ const LandingPage = () => {
           <a href="#features">Features</a>
           <a href="#contact">Contact</a>
         </div>
-        <p>© 2025 AI Med Bot. All rights reserved.</p>
+        <p>© 2025 AI Nutri Check-Up. All rights reserved.</p>
       </footer>
     </div>
   );
